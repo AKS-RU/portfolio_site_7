@@ -1,13 +1,13 @@
 /* =====================================
 Шаблон загрузки шрифта *Regular.woff2
 ===================================== */
-/* @font-face {
-  font-family: "Playfair Display";
-  src: url(../fonts/PlayfairDisplay-Regular.woff2) format("woff2");
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-} */
+}
 
 /*===============
     MODERN CSS RESET
@@ -80,4 +80,15 @@ button {
 /* Скрываем скрытые элементы */
 [hidden] {
   display: none !important;
+}
+
+/* Настройки проекта */
+:root {
+  --font-family: "Roboto", sans-serif;
+  --rust: #B45F4D;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
 }
