@@ -92,3 +92,130 @@ button {
   width: 1440px;
   margin: 0 auto;
 }
+/* header */
+.header {
+}
+.header__top {
+  padding-top: 10px;
+  background: #B36050;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 160%;
+  text-align: center;
+  color: #f1d3b9;
+  padding-bottom: 10px;
+}
+.header__row-flex {
+  padding-top: 8px;
+  padding-left: 6px;
+  padding-right: 10px;
+  background: #F6F4EC;
+  display: flex;
+  align-items: center;
+  padding-bottom: 7px;
+}
+.header__row-flex img[src="img/logo.png"] {
+  width: 120px;
+  margin: 0 auto;
+}
+.header__row-flex-menu {
+}
+.header__row-flex-menu-grid {
+  display: grid;
+  gap: 23px;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #b4604d;
+}
+.header__row-flex-account {
+  margin-left: auto;
+  display: flex;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #b45f4d;
+}
+.header__row-flex-account a {
+  margin-right: 19px;
+}
+.header__row-flex-account img {
+  display: block;
+  margin-right: 10px;
+  width: 19px;
+  height: 21px;
+}
+.header__row-flex-account p {
+  font-size: 15px;
+}
+.header__bg {
+  background: url(../img/BG.png);
+  background-position: center;
+  background-size: cover;
+  height: 435px;
+  display: flex;
+  justify-content: center;
+}
+.header__bg a {
+
+}
+.btn {
+  display: block;
+  margin: 332px auto 0;
+  background: var(--rust);
+  width: 128px;
+  height: 48px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 169%;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  align-content: center;
+}
+
+.header__title {
+  background: #A9AE8D;
+}
+.header__title h2,
+.header__title a,
+h1 {
+  padding-left: 70px;
+}
+.header__title h2 {
+  padding-top: 70px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #f6f4ec;
+  text-transform: uppercase;
+}
+.header__title a {
+  display: block;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  color: #f6f4ec;
+  text-transform: capitalize;
+  padding-bottom: 70px;
+}
+h1 {
+  padding-top: 13px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 194%;
+  color: #f6f4ec;
+  text-transform: capitalize;
+  padding-bottom: 31px;
+}
