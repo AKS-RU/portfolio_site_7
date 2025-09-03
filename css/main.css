@@ -367,11 +367,14 @@ h1 {
   color: #000;
 }
 .follows_us__grid {
+  padding-left: 5px;
+  padding-right: 5px;
   margin: 0 auto;
   padding-top: 49px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   justify-items: center;
+  gap: 10px;
   padding-bottom: 37px;
 }
 .follows_us__grid-card {
@@ -391,6 +394,7 @@ h1 {
   height: 46px;
   border-radius: 50%;
 }
+/* footer */
 .footer {
   font-family: var(--font-family);
   font-weight: 400;
